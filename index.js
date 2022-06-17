@@ -22,11 +22,11 @@ function palindrome() {
     }
 
     if (count == temp.length) {
-       document.getElementById('Throw').innerHTML = "Yes, '" + str1 + " ' is a Palindrome.";
+       document.getElementById('Throw').innerHTML = "Yes, '" + str1 + "' is a Palindrome.";
     }
 
     else {
-        document.getElementById('Throw').innerHTML = "No, '" + str1 + " ' is not a Palindrome.";
+        document.getElementById('Throw').innerHTML = "No, '" + str1 + "' is not a Palindrome.";
     }
 }
 
