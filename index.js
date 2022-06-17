@@ -1,7 +1,6 @@
 function palindrome() {
 
     let str = document.getElementById('Word').value;
-    let str1 = str;
     str = str.toLowerCase();// temp is a string (in lowercase)  
     let k = str.length; //string length
     let count = 0;
@@ -22,11 +21,12 @@ function palindrome() {
     }
 
     if (count == temp.length) {
-       document.getElementById('Throw').innerHTML = "Yes, '" + str1 + "' is a Palindrome.";
+       document.getElementById('Throw').innerHTML = "Yes, '" + str + "' is a Palindrome.";
     }
 
     else {
-        document.getElementById('Throw').innerHTML = "No, '" + str1 + "' is not a Palindrome.";
+        document.getElementById('Throw').innerHTML = "No, '" + str + "' is not a Palindrome.";
     }
 }
+
 
