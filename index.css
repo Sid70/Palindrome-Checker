@@ -78,6 +78,7 @@ h1 {
 
     .container-fluid {
         width: 80%;
+        height: 600px
     }
 
     h1 {
